@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    <ImageView android:id="@+id/ball"
+               android:layout_width="wrap_content"
+               android:layout_height="fill_parent"
+               android:layout_marginRight="10dp"
+               />
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    			<TextView 	android:id="@+id/text"
+              				android:layout_width="fill_parent"
+              				android:layout_height="wrap_content"
+              				android:textColor="#FFF"
+              				android:text="@string/txtDialog1"/>
+              	<TextView 	android:id="@+id/text2"
+              				android:layout_width="fill_parent"
+              				android:layout_height="wrap_content"
+              				android:textColor="#FFF"
+              				android:text="@string/txtDialog2"/>
+              	<TextView 	android:id="@+id/blank"
+              				android:layout_width="fill_parent"
+              				android:layout_height="wrap_content"
+              				android:textColor="#FFF"
+              				android:text="   "/>			
+    			<Button android:text="Share!" 
+    					android:id="@+id/button" 
+    					android:layout_width="fill_parent" 
+    					android:layout_height="wrap_content">
+    			</Button>
+</LinearLayout>
+</LinearLayout>

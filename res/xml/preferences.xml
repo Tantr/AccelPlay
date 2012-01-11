@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Settings">
+         <EditTextPreference android:title="Number of balls" android:defaultValue="5" android:key="number" android:inputType="number" />
+         <ListPreference android:dialogTitle="Friction" android:title="Friction" android:defaultValue="0.1"/>
+         <ListPreference android:dialogTitle="Diamter of the Ball" android:title="Diameter" android:defaultValue="0.004"/>
+         <Preference android:title="Custom Preference" android:summary="This works almost like a button" />
+    </PreferenceCategory>
+</PreferenceScreen>
